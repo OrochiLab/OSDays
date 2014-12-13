@@ -76,14 +76,31 @@
 			try {
 				
 				$Rsql="INSERT INTO guest (ID, nom, email, dateReg, typeReg)
-						VALUES (null,:nom,:prenom,:email,:dateReg,:typeReg)";
+						VALUES (null,:nom,:email,:dateReg,:typeReg)";
 				$Tsql=array('nom'=>$nom,'email'=>$email,'dateReg'=>date('l jS \of F Y h:i:s A'),'typeReg'=>$typeReg);
 				$rep = Database::getConnection()->prepare($Rsql);
 				
 				$rep->execute($Tsql);
-
+				return true;
 			} catch (PDOException $e) {
 				die('Error insertion'.$e->getMessage());
+				return false;
+			}
+		}
+
+		public static function InsertEmailNewLetter($email)
+		{
+			try {
+				
+				$Rsql="INSERT INTO newletter (ID, email) VALUES (null,:email)";
+				$Tsql=array('email'=>$email);
+				$rep = Database::getConnection()->prepare($Rsql);
+				
+				$rep->execute($Tsql);
+				return true;
+			} catch (PDOException $e) {
+				die('Error insertion'.$e->getMessage());
+				return false;
 			}
 		}
 		

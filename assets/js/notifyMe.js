@@ -21,8 +21,9 @@
     
     	var $this = $(this);
 		var input = $(this).find("input[name=email]");
-		
-		var action = $(this).attr("action");
+
+		//var action = $(this).attr("action");
+		var action = 'Metier/Newsletter.php';
 		var note = $(this).find(".note");
 		var message = $("<div class='col-lg-12 align-center' id='message'></div>").appendTo($(this));
 		var icon = $("<i></i>")
@@ -91,7 +92,7 @@
 						if (data.type == "ValidationError") {
 							message.text(settings.msgErrorValidation);
 						} else {
-							message.text(settings.msgError503);
+							message.text("amine"+settings.msgError503);
 						}
 					}
 					

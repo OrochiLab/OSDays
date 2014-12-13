@@ -656,7 +656,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 							
 							.
 							Contacter moi sur
-							<input id="email1" type="text" name="email" placeholder="Mon E-mail address" data-subline="Enter votre address mail"/>									
+							<input id="email1" type="text" name="email1" placeholder="Mon E-mail address" data-subline="Enter votre address mail"/>									
 							<div class="nl-submit-wrap">
 								<button class="nl-submit btn-effect" type="submit" id="submit_btn">Submit</button>
 							</div>				
@@ -720,7 +720,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 			<div class="subscribe-overlay"></div>
 			<div class="container wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
 				<h1>Subscribe for newsletter</h1>
-				<form action="http://multia.in/theme/mievent/corporate/html5-video/notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
+				<form action="" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
 					<div class="input-group col-lg-12 align-center">
 					  <input type="text" class="form-control email-add" name="email" placeholder="Enter Email Address">
 					  <button class="btn btn-default notify-button"><i class="fa fa-paper-plane"></i><span>Send</span></button>

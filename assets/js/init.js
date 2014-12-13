@@ -246,12 +246,12 @@ jQuery( document ).ready(function( $ ) {
 			}
 			
 			//Ajax post data to server
-			jQuery.post('contact_me.php', post_data, function(response) {
+			jQuery.post('Metier/contact_me.php', post_data, function(response) {
 				//load json data from server and output message
 				if (response.type == 'error') {
-					var output = '<div class="error col-lg-3 align-center">' + response.text + '</div>';
-				} else {
-					var output = '<div class="success col-lg-3 align-center">' + response.text + '</div>';
+					var output = '<div id="#notifyMe" class="error col-lg-12 align-center">' + response.text + '</div>';
+				} else if(response.type == 'success') {
+					var output = '<div id="notifyMe" class="success col-lg-12 align-center">' + response.text + '</div>';
 					//reset values in all input fields
 					
 				}
