@@ -1,4 +1,19 @@
-﻿<!DOCTYPE html>
+﻿<?php require_once('Metier/Guest.class.php');
+	
+	if (isset($_POST['name']) && isset($_POST['type']) && isset($_POST['email'])) {
+		
+		$name = mysql_real_escape_string($_POST['name']);
+		$email = mysql_real_escape_string($_POST['email']);
+		$type = mysql_real_escape_string($_POST['type']);
+		
+		Guest::InsertGuest($name, $email, $type);
+		var_dump($_POST);
+	} else {
+		//echo "string";
+	}
+	
+?>
+<!DOCTYPE html>
 <html>
 	
 <!-- Mirrored from multia.in/theme/mievent/corporate/html5-video/ by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 18 Nov 2014 13:57:54 GMT -->
@@ -628,20 +643,20 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9 align-center">
-						<form id="nl-form" class="nl-form ">
+						<form id="nl-form" method="GET" class="nl-form ">
 							Hi! Je m'apelle 
 							<input id="name" type="text" name="name" placeholder="Enter nom & prenom" data-subline="Entre votre nom & prenom"/>
 							.
 							je veux m'enregistre pour  
-							<select id="field_1">
-								<option value="1"selected>Formations</option>
-								<option value="2">Conferences</option>
-								<option value="3">Hackaton</option>
+							<select name="type" id="field_1">
+								<option value="Formations"selected>Formations</option>
+								<option value="Conferences">Conferences</option>
+								<option value="Hackathon">Hackathon</option>
 							</select>
 							
 							.
 							Contacter moi sur
-							<input id="email1" type="text" name="email1" placeholder="Mon E-mail address" data-subline="Enter votre address mail"/>									
+							<input id="email1" type="text" name="email" placeholder="Mon E-mail address" data-subline="Enter votre address mail"/>									
 							<div class="nl-submit-wrap">
 								<button class="nl-submit btn-effect" type="submit" id="submit_btn">Submit</button>
 							</div>				
