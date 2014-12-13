@@ -15,6 +15,7 @@
 	   i) Subscribe
 	   j) Nice Scroll
 	   h) Placeholder for ie9
+	   k) testimonial
 	3.only play video on desktop devices
 
 /*************************************/
@@ -289,6 +290,22 @@ jQuery( document ).ready(function( $ ) {
 		
 		
 });
+
+// --------- k. TESTIMONIAL ----------  //
+
+$('#qcTestimonial p').html($('#qcTestimonialList li a.active').attr('data-content'));
+$('#qcTestimonial cite').html('- ' + $('#qcTestimonialList li a.active').attr('data-cite'));
+$('#qcTestimonialList li a').hover(function() {
+	$('#qcTestimonialList li a.active').removeAttr('class');
+	$(this).addClass('active');
+	$('#qcTestimonial p').html($(this).attr('data-content'));
+	$('#qcTestimonial cite').html('- ' + $(this).attr('data-cite'));
+});
+$('#qcTestimonialList li a').click(function() {
+	return false;
+});
+
+
 /***************************************/
 /*only play video on desktop devices  */
 /**************************************/
