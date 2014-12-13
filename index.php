@@ -338,7 +338,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 									<!--<div class="col-md-4 col-sm-4 wow animated fadeInUp">
 										<div class="overlay-effect effects clearfix">
 											<div class="img">
-											  <img src="assets/img/team/team3.jpg" alt="Portfolio Item">
+											  <img src="assets/img/staff/team/team3.jpg" alt="Portfolio Item">
 											  <div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-9"><i class="fa fa-search"></i><br>View More</button>
 											  </div>
@@ -574,52 +574,52 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 							<ul id="qcTestimonialList" class="clearfix">
 												<li>
 													<a href="#" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-cite="John Doe via Twitter">
-																		<img src="https://pbs.twimg.com/profile_images/500480798886084611/P5XUPlTJ.jpeg" alt="">
-																		</a>
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
+													</a>
 												</li>
 												<li>
-													<a href="#" data-content="quibusdam est porro illum adipisci minima cupiditate sequi velit eaque enim sed nihil excepturi repellendus eum error vero!" data-cite="Samantha via Twitter">
-														<img src="includes/profile_images/499941427820769281/8tYwgR5r.png" alt="">
+													<a href="#" data-content="!" data-cite="Samantha via Twitter">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 											  </li>
 												<li>
 													<a class="active" href="#" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-cite="John Doen via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/2823681988/f4f6f2bed8ab4d5a48dea4b9ea85d5f1.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 												<li>
 													<a href="#" data-content="quibusdam est porro illum adipisci minima cupiditate sequi velit eaque enim sed nihil excepturi repellendus eum error vero!" data-cite="Samantha via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/462307615536472065/WKDR6Tja.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 												<li>
 													<a href="#" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-cite="John Doe via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/512033905503772672/kYJ10GzB.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 												<li>
 													<a href="#" data-content="quibusdam est porro illum adipisci minima cupiditate sequi velit eaque enim sed nihil excepturi repellendus eum error vero!" data-cite="Samantha via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/470664455647272960/u0PDyeFr.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 												<li>
 													<a href="#" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-cite="John Doe via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/470898770268282880/VJ0DghGr.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 												<li>
 													<a href="#" data-content="quibusdam est porro illum adipisci minima cupiditate sequi velit eaque enim sed nihil excepturi repellendus eum error vero!" data-cite="Samantha via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/513432886226075648/ZViDgotW.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 												<li>
 													<a href="#" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit." data-cite="John Doe via Twitter">
-														<img src="includes/profile_images/477437377321791488/0WEJuCyc.png" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 											  </li>
 												<li>
 													<a href="#" data-content="quibusdam est porro illum adipisci minima cupiditate sequi velit eaque enim sed nihil excepturi repellendus eum error vero!" data-cite="Samantha via Twitter">
-														<img src="https://pbs.twimg.com/profile_images/378800000764200227/06fdbd84de5e6bba08a2ff81e7fa56b0.jpeg" alt="">
+														<img src="assets/img/staff/MohammedAmineOUASMINE.jpg" alt="">
 													</a>
 												</li>
 											</ul>
@@ -694,7 +694,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-						<h1 class="arrow">Our Sponsors</h1><hr>
+						<h1 class="arrow">Nos Sponsors</h1><hr>
 						<p>Lorem ipsum dolor sit amet, alia honestatis an qui, ne soluta nemore eripuit sed. Falli exerci aperiam ut his, prompta feugiat usu minimum delicata.</p>
 					</div>
 					<!-- Jssor Slider Begin -->
@@ -713,7 +713,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 				</div>
 			</div>
 		</div>
-		 <!-- /SPONSORS -->	
+		 SPONSORS -->	
 
 		<!--SUBSCRIBE-->	
         <section class="subscribe text-center">
@@ -736,7 +736,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 				<div class="row">
 					<div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
 						<h1 class="arrow">Contact</h1><hr>
-						<p>Nous rejoindre !</p>
+						<p>Nous Contacter !</p>
 					</div>
 				</div>
 				<div class="row contact-details">
