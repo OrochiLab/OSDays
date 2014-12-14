@@ -779,7 +779,7 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 					<div class="col-md-4 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.9s">
 						<div class="light-box box-hover">
 							<h2><span>Email</span></h2>
-							<p><a href="#">opensourcedays4.0@gmail.com</a><br><a href="#">www.ensa.uh1.ac.ma</a><br><a href="#">contact.ensa@uh1.ac.ma</a></p>
+							<p><a href="#">opensourcedays4.0@gmail.com</a><br><a href="#">www.ensa.uh1.ac.ma</a><br><a href="#">>opensourcedays4.0@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -807,18 +807,30 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 				<div class="row">
 					<div class="col-md-6 align-center">
 						<ul class="legals">
-							<li><button class="md-trigger " data-modal="modal-11">Disclaimer</button></li>
-							<li><a href="http://multia.in/">Made in Multia</a></li>
+							<li><button class="md-trigger " data-modal="modal-11">Mohammed Amine OUASMINE</button></li>
+							<li><button class="md-trigger " data-modal="modal-11">Mouad MORABIT</button></li>
 						</ul>
 					</div>
 					<div class="md-modal md-effect-9" id="modal-11">
 						<div class="md-content padding-none">
 							<div class="folio">
-								<div class="sp-name disclaimer"><strong>Disclaimer</strong></div>
-								<div class="sp-dsc disclaim-border">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									<br /><br />
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<div class="avatar" style="background-image: url('assets/img/staff/MohammedAmineOUASMINEAvatar.jpg');">
+								</div>
+								<div class="sp-name"><strong>Mohammed Amine Ouasmine</strong><br/>Elève-Ingenieur</div>
+								<div class="sp-dsc">
+								
+									<blockquote>
+									<p>Neuf femmes ne peuvent pas faire un bébé en un mois <strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Fred Brooks</strong>.</p>
+									</blockquote>
+								</div>
+								<div class="sp-social">
+									<ul>
+										<li><a href="https://twitter.com/OsmAmine" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.facebook.com/med.amiine.wasmiine" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://plus.google.com/u/0/+MedAmyneOuasmine/posts" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+										<li><a href="https://ma.linkedin.com/pub/med-amine-ouasmine/4a/883/a70" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://github.com/medamineosm" class="social-btn"><i class="fa fa-github"></i></a></li>
+									</ul>
 								</div>
 								<button class="md-close"><i class="fa fa-times"></i></button>
 							</div>
