@@ -205,6 +205,25 @@
 				die('Error selection'.$e->getMessage());
 				return null;
 			}
+		}		
+
+		public static function CheckEmailIfExistNewLetter($email)
+		{
+			try {
+	
+				$Rsql="SELECT * FROM newletter WHERE email=:email";
+				$Tsql=array('email'=>$email);
+				$rep = Database::getConnection()->prepare($Rsql);
+				$rep->execute($Tsql);
+				if ($data = $rep->fetch()) {
+					return true;
+				} else {
+					return false;
+				}
+			} catch (PDOException $e) {
+				die('Error selection'.$e->getMessage());
+				return null;
+			}
 		}
 
 

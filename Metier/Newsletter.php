@@ -19,13 +19,22 @@
 	        $data = json_encode(array('type'=>'error','status'=>'error', 'text' => 'Please enter a valid email!'));
 	        die($data);
 	    }
-	    $insertionNewLetter = Guest::InsertEmailNewLetter($email);
-	    if ($insertionNewLetter == true) {
-	    	 $data = json_encode(array('type'=>'success','status'=>'success', 'text' => 'Nous vous remercions pour votre inscription.'));
-	        die($data);
-	    } else {
-	    	$data = json_encode(array('type'=>'error','status'=>'error', 'text' => 'Une erreur est levé veuillez reprendre ulterieuremnt.'));
-	        die($data);
+
+	     if(Guest::CheckEmailIfExistNewLetter($email) == 1)
+	    {
+	    	$output = json_encode(array('type'=>'error', 'text' => 'Votre email existe déja !'));
+	        die($output);
+	    }else{
+
+	    	$insertionNewLetter = Guest::InsertEmailNewLetter($email);
+		    if ($insertionNewLetter == true) {
+		    	 $data = json_encode(array('type'=>'success','status'=>'success', 'text' => 'Nous vous remercions pour votre inscription.'));
+		        die($data);
+		    } else {
+		    	$data = json_encode(array('type'=>'error','status'=>'error', 'text' => 'Une erreur est levé veuillez reprendre ulterieuremnt.'));
+		        die($data);
+		    }
 	    }
+
 	}
 ?>

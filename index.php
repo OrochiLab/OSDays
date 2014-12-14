@@ -16,7 +16,6 @@
 <!DOCTYPE html>
 <html>
 	
-<!-- Mirrored from multia.in/theme/mievent/corporate/html5-video/ by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 18 Nov 2014 13:57:54 GMT -->
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -89,10 +88,10 @@
 						<li><a data-scroll href="#apropos">A Propos</a></li>
 						<li><a data-scroll href="#intervenants">Intervenants</a></li>
 						<li><a data-scroll href="#programme">Programme</a></li>
-						<li><a data-scroll href="#portfolio">Staff</a></li>
-						<li><a data-scroll href="#sponsers">Participer</a></li>
-						<li><a data-scroll href="#sponsers">Press/News</a></li>
-						
+						<li><a data-scroll href="#staff">Staff</a></li>
+						<li><a data-scroll href="#swag">Participer</a></li>
+						<li><a data-scroll href="#sponsers">Sponsors</a></li>
+						<li><a data-scroll href="#newletters">Newsletters</a></li>
 						<li><a data-scroll href="#contact">Contact</a></li>
 					  </ul>
 				   </div>
@@ -115,7 +114,7 @@
 			<div class="col-lg-12 landing-text-pos align-center">
 				<!--<h1 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">The Annual Conference</h1>
 				<hr id="title_hr"/>
-				<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Grand Space, Portland. 21-26 Sept 2014</p>-->
+				<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Grand Space, Portland. 21-26 Sept 2015</p>-->
 				<!--<a  class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="2s" data-wow-delay="1s" data-scroll href="#swag">Voir l'intro</a>-->
 				<!-- COUNTDOWN	-->
 				
@@ -140,7 +139,7 @@
 					Destinées au grand public, les Journées Open Source ont pour mission la promotion du logiciel libre, la défense de ses principes, et l’encouragement à son utilisation prioritaire dans les établissements publics, les organisations politiques et communautaires au Maroc.<br/>
 Cet edition et tenant compte des chantiers mis en place et développés par le gouvernement du Maroc relatifs à la bonne gouvernance, à l’administration de proximité, à la démocratisation et au droit d’accès à l’information par les citoyens; les élèves ingénieurs de l’Ecole Nationale des Sciences Appliquées de Khouribga organise avec ses fervents partenaires les journées Open Source sous le thème : <br/><br/>
 <strong>«Big et Open Data : De la valorisation à l’exploitation de la donnée ouverte»</strong><br/><br/>
-Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une plateforme de discussion entre les chercheurs, les experts, les responsables gouvernementaux, les professionnels et le public, autour de deux journées.
+Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une plateforme de discussion entre les chercheurs, les experts, les responsables gouvernementaux, les professionnels et le public, autour de deux journées.
 					</p>
 					</div>
 				</div>
@@ -338,7 +337,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 									<!--<div class="col-md-4 col-sm-4 wow animated fadeInUp">
 										<div class="overlay-effect effects clearfix">
 											<div class="img">
-											  <img src="assets/img/staff/team/team3.jpg" alt="Portfolio Item">
+											  <img src="assets/img/team3.jpg" alt="Portfolio Item">
 											  <div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-9"><i class="fa fa-search"></i><br>View More</button>
 											  </div>
@@ -427,7 +426,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 								  
 									<div class="item clearfix">
 										<div class="heading">
-											<div class="time col-md-3 col-sm-12 col-xs-12">9h00 - 9h30</div>
+											<div class="time col-md-3 col-sm-12 col-xs-12">9h00 - 9h45</div>
 											<div class="e-title col-md-9 col-sm-12 col-xs-12">Les mots d'ouverture<br/></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
@@ -435,40 +434,51 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											Mot du Président de l’Université 1er M. Ahmed NAJMEDDINE.<br/>
-											Mot du Directeur de l’Ecole Nationale des Sciences Appliquées de Khouribga.<br/>
-											Mot du Conseiller Pédagogique Générale M. Imad HAFIDI.<br/>
-											Mot du Président du comité organisateur M. Hamza ABQAR.
+											9h 00 :Mot du Président de l’Université 1er M. Ahmed NAJMEDDINE.<br/>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mot du Directeur de l’Ecole Nationale des Sciences Appliquées de Khouribga.<br/>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mot du Conseiller Pédagogique Générale M. Imad HAFIDI.<br/>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mot du Président du comité organisateur M. Hamza ABQAR.</br>
+											9h 30 : Présentation d’ouverture « Explaining The Open Source culture » par M. Anas Rchi et Mlle. Jihane Hadraoui<br>
+											9h 45 : Keynote d’Ouverture du partenaire official JUG Morocco par M.Badr Elhouari « Presentation of JUG and The philosophy of Open Data »
 											</div>
 										</div>
 									</div>
 								  
 									<div class="item clearfix">
 										<div class="heading">
-											<div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-											<div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br/><span class="name">Sponsered </span></div>
+											<div class="time col-md-3 col-sm-12 col-xs-12">10h:15 - 12h:30</div>
+											<div class="e-title col-md-9 col-sm-12 col-xs-12">10h 15: La conférence 1 de M. Mouhcine LAKHDISSI<br/><span class="name">Directeur General de NEOXIA Maroc et Expert Big Data</span></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
 											<div class="content venue col-md-3 col-sm-12 col-xs-12">
-												Venue: Auditorium 1
+												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design.
+												10h 15 : La conférence 1 de M. Mouhcine LAKHDISSI Directeur General de NEOXIA Maroc et Expert Big Data<br>
+												11h 00 : Pause-Café<br>
+												11h 20 : Table Ronde à l’Amphithéâtre officiel<br>
+												11h 45 : Lancement Officiel du Hackaton Open Data par Monsieur LAKHDISSI Mouhcine<br>
+												12h 10 : Fin des conférences.<br>
+												12h 30 : Déjeuner.<br>
 											</div>
 										</div>
 									</div>
 								  
 									<div class="item clearfix">
 										<div class="heading">
-											<div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-											<div class="e-title col-md-9 col-sm-12 col-xs-12">Proin gravida nibh vel velit auctor aliquet<br/><span class="name">Mary Doe - </span><span class="speaker-designaition">Lead Designer, Microsoft</span></div>
+											<div class="time col-md-3 col-sm-12 col-xs-12">14h:00 - 17h:00</div>
+											<div class="e-title col-md-9 col-sm-12 col-xs-12"><br/>Visite des ateliers & Evaluation des projets<span class="name"> JUG Morocco.</span><span class="speaker-designaition"></span></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
 											<div class="content venue col-md-3 col-sm-12 col-xs-12">
-												Venue: Auditorium 1
+												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design.
+												14h 00 : Visite des ateliers & Evaluation des projets<br>
+												14h 15 : Lancement des ateliers de formations sous l’encadrement de JUG Morocco.<br>
+												15h 45 : Break et Pause-Café<br>
+												16h 00 : Suite des Ateliers de formations<br>
+												17h 00 : Clôture des ateliers et Visite du Hackaton.<br>
 											</div>
 										</div>
 									</div>
@@ -478,33 +488,40 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 						<section id="section-2">
 							<div class="container">
 								<div class="accordion">
-									<div class="day">September 16, 2014</div>
+									<div class="day">Mercredi 25 Février , 2015</div>
 									<div class="item clearfix">
 										<div class="heading clearfix">
-											<div class="time col-md-3 col-sm-12 col-xs-12">9:30am - 11:30am</div>
-											<div class="e-title col-md-9 col-sm-12 col-xs-12">Overview - Nisi elit consequat<br/><span class="name">Andrew Yang - </span><span class="speaker-designaition">CEO, Microsoft</span></div>
+											<div class="time col-md-3 col-sm-12 col-xs-12">8h:30 - 10h:45</div>
+											<div class="e-title col-md-9 col-sm-12 col-xs-12">Keynote - Moroccan Game Developers<br/><span class="name">« Story of Open Source Days 4.0 »</span><span class="speaker-designaition"></span></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
 											<div class="content venue col-md-3 col-sm-12 col-xs-12">
-												Venue: Auditorium 1
+												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design.
+												8h30	: Accueil des invités.<br>
+												9h 00	: Keynote d’ouverture par Moroccan Game Developers<br>
+												9h 30	: Lancement de la Vidéo présentative de l’événement « Story of Open Source Days 4.0 »<br>
+												9h 15 	: Conférence 1 : Projet de la ville intelligente.<br>
+												10h 00 	: Conférence 2 : ?<br>
+												10h 45	: Pause-Café<br>
 											</div>
 										</div>
 									</div>
 								  
 									<div class="item clearfix">
 										<div class="heading">
-											<div class="time col-md-3 col-sm-12 col-xs-12">11:30am - 1:00pm</div>
-											<div class="e-title col-md-9 col-sm-12 col-xs-12">Aenean sollicitudin quis bibendum auctor<br/><span class="name">Andrew Yang - </span><span class="speaker-designaition">CEO, Microsoft</span></div>
+											<div class="time col-md-3 col-sm-12 col-xs-12">11h:15 - 12h:30</div>
+											<div class="e-title col-md-9 col-sm-12 col-xs-12">Conférence GPEE<br/><span class="name">Déjeuner</span><span class="speaker-designaition"></span></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
 											<div class="content venue col-md-3 col-sm-12 col-xs-12">
-												Venue: Auditorium 1
+												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design.
+												11h 15 : Conférence 3 dédié pour GPEE : ?<br>
+												12h 00 : Fin des Conférences.<br>
+												12h 30 : Le Déjeuner.<br>
 											</div>
 										</div>
 									</div>
@@ -512,14 +529,17 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 									<div class="item clearfix">
 										<div class="heading">
 											<div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-											<div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br/><span class="name">Sponsered </span></div>
+											<div class="e-title col-md-9 col-sm-12 col-xs-12">Final Hackathon<br/><span class="name"> - Atelier Maroccan Game Developers</span></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
 											<div class="content venue col-md-3 col-sm-12 col-xs-12">
-												Venue: Auditorium 1
+												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design.
+												3h 30  : Lancement des ateliers de formations sous l’encadrement de Moroccan Game Developers.<br>
+												15h 00 : Break (Pause).<br>
+												15h 10 : Suite des ateliers.<br>
+												16h 15 : Finale de la compétition Hackaton dans l’amphithéâtre principal et Pitchs des projets.<br>
 											</div>
 										</div>
 									</div>
@@ -527,14 +547,18 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 									<div class="item clearfix">
 										<div class="heading">
 											<div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-											<div class="e-title col-md-9 col-sm-12 col-xs-12">Sagittis sem nibh id elit<br/><span class="name">Mary Doe - </span><span class="speaker-designaition">Lead Designer, Microsoft</span></div>
+											<div class="e-title col-md-9 col-sm-12 col-xs-12">Cérémonie & Clôture<br/><span class="name"> - Remise des trophées</span><span class="speaker-designaition">Lead Designer, Microsoft</span></div>
 										</div>
 										<div class="col-md-12 col-sm-12 col-xs-12">
 											<div class="content venue col-md-3 col-sm-12 col-xs-12">
-												Venue: Auditorium 1
+												
 											</div>
 											<div class="content details col-md-9 col-sm-12 col-xs-12">
-											This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in interactive design.
+												17h 15 : Annonces des résultats.<br>
+												17h 30 : Cérémonie de remise des trophées du Hackaton.<br>
+												17h 45 : Remise des trophées aux meilleurs projets.<br>
+												18h 00 : Remise des trophées aux formateurs.<br>
+												18h 10 : Buffet de la clôture.
 											</div>
 										</div>
 									</div>
@@ -559,7 +583,7 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
         
 		
 		 <!--STAFF-->        
-		<section id="portfolio" class="portfolio text-center section-padding">
+		<section id="staff" class="portfolio text-center section-padding">
 			<div class="container">
 				<div class="row">
 				  <div class="col-md-12">
@@ -713,10 +737,10 @@ Cette rencontre prévue les 24 et 25 février 2015, à Khouribga fournira une pl
 				</div>
 			</div>
 		</div>
-		 SPONSORS -->	
+		<!-- SPONSORS -->	
 
 		<!--SUBSCRIBE-->	
-        <section class="subscribe text-center">
+        <section id ="newletters" class="subscribe text-center">
 			<div class="subscribe-overlay"></div>
 			<div class="container wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
 				<h1>Subscribe for newsletter</h1>
