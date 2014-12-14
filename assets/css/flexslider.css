@@ -80,9 +80,9 @@ html[xmlns] .slides {display: block;}
 /* Control Nav */
 .flex-control-nav {width: 100%; position: relative; text-align: center; margin-top: 20px;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a {width: 13px; height: 13px; display: block; background: #5c696a; background: #212639; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; border: 3px solid #1bd982; }
-.flex-control-paging li a:hover { background: #1bd982; background: #212639); }
-.flex-control-paging li a.flex-active { background: #212639; background: #1bd982; cursor: default; }
+.flex-control-paging li a {width: 13px; height: 13px; display: block; background: #5c696a; background: #212639; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; border: 3px solid #1264ED; }
+.flex-control-paging li a:hover { background: #1264ED; background: #212639); }
+.flex-control-paging li a.flex-active { background: #212639; background: #1264ED; cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
