@@ -779,7 +779,7 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 					<div class="col-md-4 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.9s">
 						<div class="light-box box-hover">
 							<h2><span>Email</span></h2>
-							<p><a href="#">m.amine.osm@gmail.com</a><br><a href="#">www.ensa.uh1.ac.ma</a><br><a href="#">contact.ensa@uh1.ac.ma</a></p>
+							<p><a href="#">opensourcedays4.0@gmail.com</a><br><a href="#">www.ensa.uh1.ac.ma</a><br><a href="#">contact.ensa@uh1.ac.ma</a></p>
 						</div>
 					</div>
 				</div>
