@@ -25,13 +25,20 @@
 	        $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
 	        die($output);
 	    }
-	    $insertion = Guest::InsertGuest($name, $email, $type);
-	    if ($insertion == true) {
-	    	 $output = json_encode(array('type'=>'success', 'text' => 'Nous vous remercions pour votre inscription.'));
+	    if(Guest::CheckEmailIfExist($email) == 1)
+	    {
+	    	$output = json_encode(array('type'=>'error', 'text' => 'Votre email existe déja !'));
 	        die($output);
-	    } else {
-	    	$output = json_encode(array('type'=>'error', 'text' => 'Une erreur est levé veuillez reprendre ulterieuremnt.'));
-	        die($output);
+	    }else{
+
+	    	$insertion = Guest::InsertGuest($name, $email, $type);
+		    if ($insertion == true) {
+		    	 $output = json_encode(array('type'=>'success', 'text' => 'Nous vous remercions pour votre inscription.'));
+		        die($output);
+		    } else {
+		    	$output = json_encode(array('type'=>'error', 'text' => 'Une erreur est levé veuillez reprendre ulterieuremnt.'));
+		        die($output);
+		    }
 	    }
 	    
 	}

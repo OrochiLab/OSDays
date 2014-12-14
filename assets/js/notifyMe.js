@@ -92,7 +92,7 @@
 						if (data.type == "ValidationError") {
 							message.text(settings.msgErrorValidation);
 						} else {
-							message.text("amine"+settings.msgError503);
+							message.text(settings.msgError503);
 						}
 					}
 					
