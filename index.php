@@ -1,4 +1,4 @@
-﻿<?php require_once('Metier/Guest.class.php');
+<?php require_once('Metier/Guest.class.php');
 	
 	if (isset($_POST['name']) && isset($_POST['type']) && isset($_POST['email'])) {
 		
@@ -841,45 +841,7 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 			</div>
         </footer>
 		<!-- /FOOTER -->
-		<div class="show-panel"><i class="fa fa-cog"></i></div>
-	<div class="panel">
-		
-		<div class="panel-container">
-			<div class="options">
-				<ul class="color-switch first">
-				<p class="panel-head first">Corporate</p>
-				
-				<li><a href="http://multia.in/theme/mievent/corporate/image"><span class="links">Static Background</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/corporate/slider"><span class="links">Slider Background</span></a></li>
-				<li><a class="active1"><span class="links">Html5 Video</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/corporate/youtube-video"><span class="tube">Youtube Video</span></a></li>
-				
-				<p class="panel-head first">Coming Soon</p>
-				<li><a href="http://multia.in/theme/mievent/corporate/quickregistration"><span class="links">Quick Register</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/corporate/comingsoon-image"><span class="links">Static Image</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/corporate/comingsoon-html5video"><span class="links">Html5 Video</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/corporate/comingsoon-youtubevideo"><span class="tube">youtube video</span></a></li>
-				
-				</ul>	
-				<ul class="color-switch last">
-				<p class="panel-head last">Music</p>
-				
-				<li><a href="http://multia.in/theme/mievent/music/image"><span class="links">Static Background</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/music/slider"><span class="links">Slider Background</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/music/html5video"><span class="links">Html5 Video</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/music/youtube-video"><span class="tube">Youtube Video</span></a></li>
-				
-				<p class="panel-head last">Coming Soon</p>
-				<li><a href="http://multia.in/theme/mievent/music/quickregistration"><span class="links">Quick Register</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/music/comingsoon-image"><span class="links">Static Image</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/music/comingsoon-html5video"><span class="links">Html5 Video</span></a></li>
-				<li><a href="http://multia.in/theme/mievent/music/comingsoon-youtubevideo"><span class="tube">youtube video</span></a></li>
-				
-				</ul>	
-			</div>
-		</div>
-	</div>	
-		<!--SCRIPTS-->	
+ 		<!--SCRIPTS-->	
 		
 		<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.min.js"></script>
