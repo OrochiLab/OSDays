@@ -88,10 +88,10 @@
 						<li><a data-scroll href="#apropos">A Propos</a></li>
 						<li><a data-scroll href="#intervenants">Intervenants</a></li>
 						<li><a data-scroll href="#programme">Programme</a></li>
-						<li><a data-scroll href="#staff">Staff</a></li>
-						<li><a data-scroll href="#swag">Participer</a></li>
+						<li><a data-scroll href="#staff">Staffs</a></li>
 						<li><a data-scroll href="#sponsers">Sponsors</a></li>
-						<li><a data-scroll href="#newletters">Newsletters</a></li>
+						<li><a data-scroll href="#swag">Participer</a></li>
+						<li><a data-scroll href="#partenaire">Partenaires</a></li>
 						<li><a data-scroll href="#contact">Contact</a></li>
 					  </ul>
 				   </div>
@@ -738,7 +738,7 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 			</div>
 		</div>
 		<!-- SPONSORS -->	
-
+		
 		<!--SUBSCRIBE-->	
         <section id ="newletters" class="subscribe text-center">
 			<div class="subscribe-overlay"></div>
@@ -753,7 +753,31 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 			</div>
         </section>
 		<!-- /SUBSCRIBE -->
-
+		<!--PARTENAIRES-->	
+        <div id="partenaire" class="ignite-cta text-center section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+						<h1 class="arrow">Nos Partenanires</h1><hr>
+						<p>Lorem ipsum dolor sit amet, alia honestatis an qui, ne soluta nemore eripuit sed. Falli exerci aperiam ut his, prompta feugiat usu minimum delicata.</p>
+					</div>
+					<!-- Jssor Slider Begin -->
+					<div id="slider1_container" style=" ">
+						<div class="inner_carousal" data-u="slides" style="">
+							<div><img alt="sp1" src="assets/img/sponsor/sp1.png" /></div>
+							<div><img alt="sp2" src="assets/img/sponsor/sp2.png" /></div>
+							<div><img alt="sp3" src="assets/img/sponsor/sp3.png" /></div>
+							<div><img alt="sp4" src="assets/img/sponsor/sp4.png" /></div>
+							<div><img alt="sp5" src="assets/img/sponsor/sp5.png" /></div>
+							<div><img alt="sp6" src="assets/img/sponsor/sp6.png" /></div>
+							<div><img alt="sp7" src="assets/img/sponsor/sp7.png" /></div>
+						</div>
+					</div>
+					<!-- Jssor Slider End -->
+				</div>
+			</div>
+		</div>
+		<!-- PARTENAIRES -->
 		<!--CONTACT-->	
         <section class="text-center section-padding contact-wrap" id="contact">
 			<div class="container">
@@ -773,13 +797,13 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 					<div class="col-md-4 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">
 						<div class="light-box box-hover">
 							<h2><span>Phone</span></h2>
-							<p>+212 5 2349 2335 <br>+212 6 1853 4372</p>
+							<p>+212 5 0000 0000<br>+212 6 0000 0000</p>
 						</div>
 					</div>
 					<div class="col-md-4 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.9s">
 						<div class="light-box box-hover">
 							<h2><span>Email</span></h2>
-							<p><a href="#">opensourcedays4.0@gmail.com</a><br><a href="#">www.ensa.uh1.ac.ma</a><br><a href="#">>opensourcedays4.0@gmail.com</a></p>
+							<p><a href="#">opensourcedays4.0@gmail.com</a><br><a href="#">www.ensa.uh1.ac.ma</a><br><a href="#">opensourcedays4.0@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
