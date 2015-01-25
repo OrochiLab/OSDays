@@ -36,7 +36,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'> 
 
 		<!-- STYLESHEETS -->
-		
+
+    	<link rel="stylesheet" href="assets/css/jquery.remodal.css">
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/flexslider.css" rel="stylesheet" >
@@ -61,7 +62,7 @@
 	
 	</head>
 	   
-    <body id="top"  style="background-color:#C7C7C7;>
+    <body id="top"  style="background-color:#C7C7C7;">
 	  
 		<!--PRELOADER-->
 		<div class="preloader">
@@ -667,15 +668,14 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-9 align-center">
-						<form id="nl-form" method="GET" class="nl-form ">
+						<form id="nl-form" method="POST" class="nl-form ">
 							Hi! Je m'apelle 
 							<input id="name" type="text" name="name" placeholder="Enter nom & prenom" data-subline="Entre votre nom & prenom"/>
 							.
 							je veux m'enregistre pour  
 							<select name="type" id="field_1">
-								<option value="Formations"selected>Formations</option>
-								<option value="Conferences">Conferences</option>
-								<option value="Hackathon">Hackathon</option>
+								<option value="Formations"selected>Pack Gold</option>
+								<option value="Conferences">Pack Silver</option>
 							</select>
 							
 							.
@@ -687,7 +687,8 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 							<div id="result"></div>
 							<div class="nl-overlay"></div>
 						</form>
-						<div class="md-modal md-effect-9" id="modal-10">
+
+						<div class="col-lg-12 md-modal md-effect-12" id="modal-10">
 							<div class="md-content padding-none">
 								<div class="folio">
 									
@@ -703,11 +704,56 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 									<button class="md-close"><i class="fa fa-times"></i></button>
 								</div>
 							</div>
-						</div> 
+						</div>
+						<div class="col-lg-12 md-modal md-effect-12" id="modal-101">
+							<div class="md-content padding-none">
+								<div class="folio">
+									
+									<div class="sp-name disclaimer"><strong>Pack Gold</strong></div>
+									<div class="sp-dsc disclaim-border">
+									Le pack gold contient .........
+									<ul>
+										<li>Conférences</li>
+										<li>Atelier Ruby & Rails</li>
+										<li>Atelier Java 8</li>
+										<li>Atelier Gaming (Unity)</li>
+										<li>Atelier Gaming (studio)</li>
+										<li>Hackathon Open Data : Big Data</li>
+										<li>Buffers & autres ...</li>
+									</ul>
+									</div>
+									
+									<button class="md-close"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 md-modal md-effect-12" id="modal-102">
+							<div class="md-content padding-none">
+								<div class="folio">
+									
+									<div class="sp-name disclaimer"><strong>Pack Silver</strong></div>
+									<div class="sp-dsc disclaim-border">
+									Le pack silver contient .........
+									<ul>
+										<li>Conférences</li>
+										<li>Hackathon Open Data : Big Data</li>
+										<li>Buffers & autres ...</li>
+									</ul>
+									</div>
+									
+									<button class="md-close"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 tc">
+							<button class="md-trigger" data-modal="modal-101">Pack Gold*</button>
+							<button class="md-trigger" data-modal="modal-102">Pack Silver**</button>
+						</div>
 						<div class="col-md-12 tc">Please read the<button class="md-trigger" data-modal="modal-10">Terms & Conditions</button>carefully.</div>
 						<!-- the overlay element -->
 						<div class="md-overlay"></div>
 					</div>
+
 				</div>
 			</div>
         </section>
@@ -728,9 +774,6 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 							<div><img alt="sp2" src="assets/img/sponsor/sp2.png" /></div>
 							<div><img alt="sp3" src="assets/img/sponsor/sp3.png" /></div>
 							<div><img alt="sp4" src="assets/img/sponsor/sp4.png" /></div>
-							<div><img alt="sp5" src="assets/img/sponsor/sp5.png" /></div>
-							<div><img alt="sp6" src="assets/img/sponsor/sp6.png" /></div>
-							<div><img alt="sp7" src="assets/img/sponsor/sp7.png" /></div>
 						</div>
 					</div>
 					<!-- Jssor Slider End -->
@@ -764,13 +807,9 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 					<!-- Jssor Slider Begin -->
 					<div id="slider1_container" style=" ">
 						<div class="inner_carousal" data-u="slides" style="">
-							<div><img alt="sp1" src="assets/img/sponsor/sp1.png" /></div>
-							<div><img alt="sp2" src="assets/img/sponsor/sp2.png" /></div>
-							<div><img alt="sp3" src="assets/img/sponsor/sp3.png" /></div>
-							<div><img alt="sp4" src="assets/img/sponsor/sp4.png" /></div>
-							<div><img alt="sp5" src="assets/img/sponsor/sp5.png" /></div>
-							<div><img alt="sp6" src="assets/img/sponsor/sp6.png" /></div>
-							<div><img alt="sp7" src="assets/img/sponsor/sp7.png" /></div>
+							<div><img alt="sp1" src="assets/img/Parteners/sp1.jpg" /></div>
+							<div><img alt="sp2" src="assets/img/Parteners/sp2.jpg" /></div>
+							<div><img alt="sp3" src="assets/img/Parteners/sp3.jpg" /></div>
 						</div>
 					</div>
 					<!-- Jssor Slider End -->
@@ -918,5 +957,23 @@ Cette rencontre prévue les 24 et 25 février 20155, à Khouribga fournira une p
 		<script type="text/javascript" src="assets/js/jquery.plugin.js"></script> 
 		<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
 
+		<!-- MODAL -->
+		script src="assets/js/jquery.remodal.js"></script>
+		<script>
+		    $(document).on('open', '.remodal', function () {
+		        console.log('open');
+		    });
+
+		//    You can open or close it like this:
+		//    $(function () {
+		//        var inst = $.remodal.lookup[$('[data-remodal-id=modal]').data('remodal')];
+		//        inst.open();
+		//        inst.close();
+		//    });
+
+		    //  Or init in this way:
+		    var inst = $('[data-remodal-id=modal2]').remodal();
+		    //  inst.open();
+		</script>
     </body>
 </html>

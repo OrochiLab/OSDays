@@ -2,6 +2,7 @@
 	/**
 	* 
 	*/
+	date_default_timezone_set('Africa/Casablanca');
 	require_once('Database.class.php');
 	define('GoogleUser', 'opensourcedays4.0@gmail.com');
 	define('GooglePass', '#"Dioxiz"#;');
@@ -161,7 +162,7 @@
 			try {
 				
 				$Rsql="INSERT INTO guest (ID, nom, email, dateReg, typeReg,status) VALUES (null,:nom,:email,:dateReg,:typeReg,'disable')";
-				$Tsql=array('nom'=>$nom,'email'=>$email,'dateReg'=>date('l jS \of F Y h:i:s A'),'typeReg'=>$typeReg);
+				$Tsql=array('nom'=>$nom,'email'=>$email,'dateReg'=>date('y-m-d h:i:s')/*l jS \of F Y h-i-s A*/,'typeReg'=>$typeReg);
 				$rep = Database::getConnection()->prepare($Rsql);
 				$rep->execute($Tsql);
 				Guest::setKeyGuest($nom,$email);

@@ -6,7 +6,7 @@
 	    if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 	       
 	        $output = json_encode(array( //create JSON data
-	            'type'=>'error',
+	            'type' => 'error',
 	            'text' => 'Sorry contact Amine or Mouad'
 	        ));
 	        die($output); //exit script outputting json data

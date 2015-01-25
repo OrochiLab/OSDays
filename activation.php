@@ -19,7 +19,7 @@
 		if($status_bdd == 'enable') // Si le compte est déjà actif on prévient
 		  {
 		     echo "Votre compte est déjà actif !";
-		     header("Location: ../OSDays");
+		     header("Location: ../OSDaysBeta");
 		  }
 		else // Si ce n'est pas le cas on passe aux comparaisons
 		  {
@@ -33,18 +33,18 @@
 		          $rep = Database::getConnection()->prepare("UPDATE guest SET status = 'enable' WHERE email like :email ");
 		          $rep->bindParam(':email', $email);
 		          $rep->execute();
-		          header("Location: ../OSDays");
+		          header("Location: ../OSDaysBeta");
 		          
 		       }
 		     else // Si les deux clés sont différentes on provoque une erreur...
 		       {
 		          echo "Erreur ! Votre compte ne peut être activé...";
-		          header("Location: ../OSDays");
+		          header("Location: ../OSDaysBeta");
 		       }
 		  }
 
 		} else {
-			header("Location: ../OSDays");
+			header("Location: ../OSDaysBeta");
 		}
 		
 	} catch (PDOException $e) {
